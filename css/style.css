@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 1366px;
+    min-width: 300px;
+    background-color: rgb(202, 199, 199);
+    margin-bottom: 0%;
+
+}
+header{
+    background-color: white;
+}
+nav{
+    padding: 10px;
+    margin-bottom: 0%;
+}
+
+#lupa{
+    float: right;
+}
+
+#divPai{
+    background-image: url("london.jpg");    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    
+
+}
+form{
+    text-align: left;
+    margin: 0;
+}
+
+.divNav{
+    font-size: 30px;
+    text-align: center;
+}
+
+#divFilho{
+    padding: 30px;
+}
+.btn{
+    color: #ffffff;
+}
+
+form > header{
+    margin:0;
+}
+
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imgDiv{
+    margin-bottom: 50px;
+    margin-right: 10px;
+    
+}
+.img2{
+    margin-bottom: 50px;
+}
+.travelNature{
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    background-color: white;
+    padding: 10px;
+}
+.div1{
+    margin-right: 30px;
+    
+}
+#emailBox{
+    background-color: rgb(65, 64, 64);
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+#emailBox > input{
+    padding: 5px;
+    border-radius: 8px;
+    border: none ;
+}
+.inputCont{
+    padding: 15px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+ul > li{
+    list-style: square;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    
+}
+.footerDiv{
+    display: inline-block;
+
+}
