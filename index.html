@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="mb-5">
+    <header>
+        <nav>
+            <img src="img/marcador-de-posicao-do-mapa.png" alt="" width="20px" id="logo">
+
+            <img src="img/marcador-de-posicao-do-mapa.png" alt="" width="20px" id="lupa">
+        </nav>
+    </header>
+
+    <div id="divPai">
+        <form action="" style="background-color: #ffffff;">
+            <header style="background-color: black; color:#ffffff;">
+                <nav>
+                    <p class="divNav">Flight</p>
+                </nav>
+            </header>
+            <div id="divFilho">
+                <h2>Travel the world with us</h2><br>
+                <label for="from">From</label>
+                <input type="text" placeholder="Departing from">
+
+                <label for="to">To</label>
+                <input type="text" placeholder="Arriving at"><br><br>
+
+                <button class="btn" style="background-color: rgb(201, 23, 0);">Search and find dates</button>
+            </div>
+        </form>
+    </div>
+
+    <main>
+        <div id="cidades" class=" col-md-12 mt-4">
+            <h2>Good Offers Right Now</h2>
+            <p>Up to <strong>50%</strong> discount</p>
+
+            <div class="row col-md-12">
+                <div class="blocos col-md-6">
+                    <img src="img/cinqueterre.jpg" alt="" width="500px">
+                </div>
+
+                <div class="blocos col-md-5">
+                    
+                        <img src="img/sanfran.jpg" alt="" width="220px" class="imgDiv" >
+                        <img src="img/newyork.jpg" alt="" width="220px" class="img2">
+                   
+                        <img src="img/paris.jpg" alt="" width="220px" class="imgDiv">
+                        <img src="img/pisa.jpg" alt="" width="220px" class="img2">
+                    </div>
+                </div>
+            </div>
+
+            <div id="explorar" class="row col-md-12">
+                <h2>Explore Nature</h2>
+                <p>Travel with us and see nature at its finest.</p>
+
+                <div class="card travelNature div1 col-md-6" >
+                    <img src="img/ocean.jpg" alt="" class="card-img-top">
+                    <h2>West Coast, Norway</h2>
+                    <p>Roundtrip from $79</p>
+                    <p>Preaesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+
+                    <button class="btn" style="background-color:#005892;">Buy Tickects</button>
+                </div>
+
+                <div class="card travelNature col-md-6">
+                    
+                    <img src="img/mountains.jpg" alt="" class="card-img-top">
+                    <h2>Mountains, Austria</h2>
+                    <p>One-way from $39</p>
+                    <p>Preaesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+
+                    <button class="btn" style="background-color: #005892;">Buy Tickects</button>
+                
+                </div>
+
+            </div>
+        
+            <div id="emailBox" class="row col-md-12 mt-5">
+                <h2>Get the best offers first!</h2>
+                <p>Join our newsletter.</p>
+
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Yout Email address">
+
+                <button class="btn mt-3" onclick="susbcribe()" style="background-color: #ac0000; width: 100px;">Subscribe</button>
+            </div>
+
+            <div id="contact" class="row col-md-12 mt-5"> 
+                <h2>Contact</h2>
+                <p>Let us book your next trip</p>
+               <ul>
+                <li>Chicago, US</li>
+                <li>Phone: +00 171717</li>
+                <li>Email: mail@gmail.com</li>
+               </ul>
+
+               <input type="name" class="inputCont" placeholder="Name">
+               <input type="email" class="inputCont" placeholder="Email">
+               <textarea id="textarea" cols="5" rows="5" class="inputCont" placeholder="Write here..."></textarea>
+
+               <button class="btn mt-2" onclick="send()" style="background-color: #4b7a00; width: 200px;">SEND MESSAGE</button>
+            </div>
+            
+    </main>
+    <footer class="mt-5 mb-0">
+        <h4>Find Us On</h4><br>
+
+        <div>
+            <div class="footerDiv"><img src="img/marcador-de-posicao-do-mapa.png" alt="" width="20px"></div>
+            <div class="footerDiv"><img src="img/marcador-de-posicao-do-mapa.png" alt="" width="20px"></div>
+            <div class="footerDiv"><img src="img/marcador-de-posicao-do-mapa.png" alt="" width="20px"></div>
+            <div class="footerDiv"><img src="img/marcador-de-posicao-do-mapa.png" alt="" width="20px"></div>
+
+        </div><br>
+        <p>Powered by <a href="#" style="text-decoration: none; color:black; ">w3.css</a> </p>
+    </footer>
+     
+    
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+</html>
